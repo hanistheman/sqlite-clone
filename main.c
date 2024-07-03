@@ -48,13 +48,12 @@ int main(int argc, char* argv[]) {
         print_prompt();
         read_input(input_buffer);
 
-        if (strncmp(input_buffer -> buffer, ".exit") == 0) {
+        if (strcmp(input_buffer -> buffer, ".exit") == 0) {
             close_input_buffer(input_buffer);
             exit(EXIT_SUCCESS);
         } else {
             printf("Unrecognized command '%s'.\n", input_buffer -> buffer);
         }
-
-        return 0;
     }
+    return 0;
 }

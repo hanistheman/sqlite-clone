@@ -1,0 +1,3 @@
+/Users/hangao/sqlite-clone/cmake-build-debug/CMakeFiles/sqlite_clone.dir
+/Users/hangao/sqlite-clone/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/hangao/sqlite-clone/cmake-build-debug/CMakeFiles/rebuild_cache.dir
